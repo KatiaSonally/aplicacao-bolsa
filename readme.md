@@ -1,5 +1,34 @@
-Introdução ao TypeScript através da construção de uma aplicação de negociações em bolsa de valores. 
+Este projeto tem como objetivo desenvolver uma aplicação de negociações em bolsa de valores, utilizando TypeScript como linguagem de programação. Ele será dividido em três fases: TypeScript Básico, TypeScript Intermediário e TypeScript Avançado. Nesta primeira fase, focamos no TypeScript Básico e na construção das funcionalidades essenciais da aplicação.
 
-É uma aplicação web que permite que cadastremos uma data, uma quantidade, um valor de uma negociação.
+<h3>Funcionalidades Implementadas</h3>
+Cadastro de negociação: O usuário pode inserir uma data, uma quantidade e um valor para cadastrar uma negociação na aplicação.
 
-Essas informações poderão ser exibidas no futuro em uma lista para que o usuário possa verificar o que foi cadastrado.
+Imutabilidade dos dados: Foram aplicadas soluções para garantir que os dados da negociação não possam ser modificados após o cadastro. As soluções implementadas incluem:
+
+Utilização de getters: Acessores (getters) foram utilizados para permitir apenas a leitura dos dados da negociação, sem a possibilidade de modificação direta.
+
+Declaração no constructor: Os dados da negociação são inicializados no construtor da classe e não podem ser modificados após a criação do objeto.
+
+Atribuição privada (private): Os atributos da negociação foram declarados como privados, impedindo o acesso e modificação direta dos mesmos fora da classe.
+
+Atribuição pública com o modificador readonly: Além de privados, os atributos foram declarados como somente leitura (readonly), garantindo que eles só possam ser definidos no momento da criação do objeto e não possam ser alterados posteriormente.
+
+Programação defensiva: Medidas adicionais de programação defensiva foram implementadas para garantir que os dados da negociação sejam protegidos contra possíveis manipulações indesejadas.
+
+![image](https://github.com/KatiaSonally/aplicacao-bolsa/assets/119110042/caf7c380-b9d8-4c92-8dbe-6afa8d652a8f)
+
+<h3>Como Executar a Aplicação</h3>
+Para executar a aplicação, siga os passos abaixo:
+
+Certifique-se de ter o ambiente Node.js instalado em sua máquina.
+
+Clone este repositório para o seu computador.
+
+Navegue até a pasta do projeto e instale as dependências utilizando o gerenciador de pacotes do Node.js (npm ou yarn).
+
+Execute o comando "npm start" ou "yarn start" para iniciar a aplicação.
+
+Acesse a aplicação através do navegador utilizando o endereço http://localhost:3000 (ou outra porta, caso especificada no terminal).
+
+<h3>Contribuições</h3>
+Contribuições são bem-vindas! Se você tem alguma ideia de melhoria ou correção de bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request.
