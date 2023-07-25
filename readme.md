@@ -17,15 +17,6 @@ Programação defensiva: Medidas adicionais de programação defensiva foram imp
 
 ![image](https://github.com/KatiaSonally/aplicacao-bolsa/assets/119110042/caf7c380-b9d8-4c92-8dbe-6afa8d652a8f)
 
-<h3>Próximas Etapas</h3>
-Nas próximas fases do projeto, serão abordados conceitos mais avançados de TypeScript, com foco em melhorias de código, boas práticas e recursos mais avançados da linguagem. Algumas das funcionalidades planejadas para as próximas etapas são:
-
-Exibição de negociações cadastradas: Implementação de uma lista que exibirá as informações das negociações cadastradas, permitindo ao usuário visualizar o histórico de negociações.
-
-TypeScript Intermediário: Aplicação de conceitos intermediários de TypeScript, como interfaces, tipos genéricos e decorators.
-
-TypeScript Avançado: Exploração de recursos avançados do TypeScript, incluindo tipos condicionais, mapped types e namespaces.
-
 <h3>Como Executar a Aplicação</h3>
 Para executar a aplicação, siga os passos abaixo:
 
